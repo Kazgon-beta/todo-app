@@ -9,6 +9,8 @@ body{
 
 h1{
     text-align: center;
+    font-size:28px;
+    font-family:sans-serif;
 }
 
 #taskList li{
