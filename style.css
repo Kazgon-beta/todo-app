@@ -24,5 +24,9 @@ h1{
 }
 
 #addButton{
-    background-color: lightblue;
+    background-color:#4caf50;
+    color:#ffff;
+    border:none;
+    padding:0.5rem 1rem;
+    border-radius:4px;
 }
