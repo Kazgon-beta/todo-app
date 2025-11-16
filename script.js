@@ -8,9 +8,21 @@ addButton.addEventListener("click", () => {
 
   // <li>～</li> を作る
   const li = document.createElement("li");
-  li.textContent = text;
+
+  //テキスト表示部分
+  const span=document.createElement("span");
+  span.textContent=text;
+  
+  const delBtn=document.createElement("button");
+  delBtn.textContent="x";
+  delBtn.style.marginLeft="8px";
+  delBtn.addEventListener("click",()=>{
+    li.remove();//リストから削除
+  });
 
   // リストに入れる
+  li.appendChild(span);
+  li.appendChild(delBtn);
   taskList.appendChild(li);
 
   // 入力欄をリセット
