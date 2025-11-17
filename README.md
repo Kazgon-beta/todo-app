@@ -35,8 +35,6 @@ https://kazgon-beta.github.io/todo-app/
 ##スクリーンショット
 
 ![demo image1](assets/screenshot.png)
-![demo image2](assets/screenshot1.png)
-![demo image3](assets/screenshot2.png)
 
 ## 開発ルール
 このプロジェクトは　GitHub　Flow を利用しています。
